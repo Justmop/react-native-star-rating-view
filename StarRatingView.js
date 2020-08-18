@@ -40,8 +40,7 @@ import {
   TouchableOpacity,
   TouchableHighlight,
   PanResponder,
-  ViewPropTypes,
-  I18nManager
+  ViewPropTypes
 } from "react-native";
 
 import PropTypes from "prop-types";
@@ -431,12 +430,8 @@ export default class StarRatingView extends Component {
     if (actualLocationX >= containerWidth) {
       return this.state.maximumValue;
     } else {
-      let value;
-      if (I18nManager.isRTL) {
-        value = 5 - actualLocationX / cellWidth;
-      } else {
-        value = actualLocationX / cellWidth;
-      }
+      let value = actualLocationX / cellWidth;;
+      
       if (this.props.allowsHalfStars) {
         if (this.props.accurateHalfStars) {
           value = value;
