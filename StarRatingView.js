@@ -420,7 +420,6 @@ export default class StarRatingView extends Component {
   // 通过 LocationX 算出 star value
   _transFormStarValueByLocationX = locationX => {
     StarLog("_transFormStarValueByLocationX: " + locationX);
-    debugger;
     let actualLocationX = locationX - this.locationDiffX;
     let count = this.state.maximumValue;
     let containerWidth =
