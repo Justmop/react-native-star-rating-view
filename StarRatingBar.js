@@ -48,7 +48,7 @@ import {
 
 import PropTypes from 'prop-types'
 
-import StarRatingView, { StarLog } from './StarRatingView'
+import StarRatingView from './StarRatingView'
 
 const RNViewPropTypes = ViewPropTypes || View.propTypes;
 const RNPropTypes = PropTypes || React.PropTypes;
