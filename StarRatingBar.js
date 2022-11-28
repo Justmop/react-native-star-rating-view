@@ -103,7 +103,6 @@ export default class StarRatingBar extends Component {
         this.state = {
             value: this.props.score || this.props.value,
         }
-        StarLog("hello", "star", "log");
     }
 
     componentWillReceiveProps(nextProps) {
