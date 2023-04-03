@@ -39,9 +39,9 @@ import {
   TouchableWithoutFeedback,
   TouchableOpacity,
   TouchableHighlight,
-  PanResponder,
-  ViewPropTypes
+  PanResponder
 } from "react-native";
+import { ViewPropTypes } from "deprecated-react-native-prop-types";
 
 import PropTypes from "prop-types";
 

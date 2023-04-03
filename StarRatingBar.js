@@ -42,9 +42,9 @@ import {
     View,
     Text,
     StyleSheet,
-    TouchableHighlight,
-    ViewPropTypes
+    TouchableHighlight
 } from 'react-native'
+import { ViewPropTypes } from "deprecated-react-native-prop-types";
 
 import PropTypes from 'prop-types'
 
